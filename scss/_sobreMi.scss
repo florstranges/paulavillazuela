@@ -1,0 +1,59 @@
+.header__Sobre{
+    background-image: url(../multimedia/header2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.div__sobre{
+    height: 600px;
+    }
+    .div__sobre__info{
+        background-color: $tercerColor;
+        border-radius: 20px;
+        height: 700px;
+        width: 1280px;
+        position: relative;
+        top: -120px;
+        max-width: 100%;
+        margin: auto;
+            .div__sobre__info__texto{
+                font-size: 1.5rem;
+                font-weight: 400;
+                display: inline-block; 
+                width: 400px;
+                position: absolute;
+                top: 70px ;
+                left: 800px;
+                padding-top: 60px;
+            }
+            img{
+                border: 5px solid $colorBlancoDos;
+                border-radius: 20px; 
+                width: 300px; 
+            }
+    }    
+        
+    .div__sobre__info__titulo{
+        padding-bottom: 25px;
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        .div__sobre__info__titulo__linea{
+            @extend %titulos;
+            color: $colorBlancoDos;
+            font-size: 8.5rem;
+            }  
+        }
+        
+    #img1{
+        position: absolute;
+        left: 200px;
+        top: 40px;
+        z-index: 1;
+        }
+    #img2{
+        position: absolute;
+        left: 450px;
+        top:250px ;
+        z-index: 2;
+        }
+    

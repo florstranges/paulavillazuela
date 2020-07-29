@@ -1,0 +1,633 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* -----    HEADER ----- */
+header{
+    width: 100%;
+    height: 350px;
+}
+
+#headerIndex{
+    background-image: url(../multimedia/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.logo img{
+    width: 600px;
+}
+.animate__fadeInDown{
+    animation-duration: 2s;
+}
+
+.menu li{
+    list-style-type: none;
+    font-size: 2rem;
+    display: inline-block;
+    margin: 2rem;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 2rem;
+}
+
+.menu li a:hover{
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 1rem;
+}
+
+/*-----     MAIN    ----*/
+.bebas{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.mainPadre{
+    background-color: #fff;
+    text-align: center;
+    height: 40% ;
+    margin-top: 20px;
+}
+
+.mainPadre img{ 
+    height: 400px;
+    margin-bottom: 15px;
+}
+.mainPadre h3{
+    color: #7E6BC4;
+    display: inline-block;
+    margin: 20px;
+    letter-spacing: 4px;
+}
+.mainPadre p{
+    color: #000000;
+    font-size: 1.5rem;
+}
+.mainPadre a{
+    text-decoration: none;
+    color: #F5F2FC;
+    font-size: 2rem;
+}
+.mainPadre button{
+    background-color: #7E6BC4;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+/* -----    INDEX SERVICIOS -----*/
+.servicios{
+    background-color: #D6C8FF;
+    height: 30%;
+}
+
+.servicios h3{
+    color: #C79ECF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.serviciosPadreIndex{
+    display: flex;
+    justify-content: space-around;
+}
+.serviciosPadreIndex img{
+    border-radius: 20px;
+    height: 200px;
+    width: 280px;
+    filter: grayscale(100%);
+}
+.serviciosPadreIndex img:hover{
+    filter: none;
+}
+
+.serviciosPadreIndex a{
+    text-decoration: none;
+}
+.serviciosPadreIndex a:hover{
+    color:#7E6BC4 ;
+    text-decoration: underline;
+}
+.serviciosPadreIndex div{
+    text-align: center;
+    margin: 0px 6px 5px 6px;
+}
+
+.tituloServicio{
+    color: #7E6BC4;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+/* ----     INDEX GALERIA ---- */
+.galeria{
+    background-color: #FEF0FF;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria img{
+    border-radius: 20px;
+    width: 500px;
+    margin: 15px;
+}
+.galeria a{
+    color: #C79ECF;
+}
+.galeria a h3{
+    letter-spacing: 4px;
+}
+
+
+/*-----     FOOTER   -----*/
+footer{
+    background-image: url(../multimedia/footer3.jpg);
+    background-size:cover ;
+    background-position: center;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+.contactoBebas{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+}
+
+footer h3, p, a{
+    margin: 10px;
+}
+
+
+
+
+/* ----- PAGINA SOBRE MI -----*/
+.header_Sobre{
+    background-image: url(../multimedia/header2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.div_sobre{
+    height: 600px;
+}
+.div_sobre_info{
+    background-color: #D6C8FF;
+    border-radius: 20px;
+    height: 700px;
+    width: 1280px;
+    position: relative;
+    top: -120px;
+    left: 30px;
+}
+
+.div_sobre_info_titulo{
+    padding-bottom: 25px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.div_sobre_info p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: inline-block; 
+    width: 400px;
+    position: absolute;
+    top: 70px ;
+    left: 800px;
+    padding-top: 60px;
+}
+.div_sobre_info img{
+    border: 5px solid #fff;
+    border-radius: 20px; 
+    width: 300px;  
+}
+.bold{
+    font-weight: 600;
+}
+#img1{
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    z-index: 1;
+}
+#img2{
+    position: absolute;
+    left: 450px;
+    top:250px ;
+    z-index: 2;
+}
+
+.div_sobre_info_titulo_linea{
+    font-family:'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 8.5rem;
+}
+
+
+/* ---- PAGINA SERVICIOS ---- */
+#headerServicio{
+    background-image: url(../multimedia/header3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.paginaServicios{
+    background-color: #D6C8FF;
+    font-size: 2rem;
+
+}
+.menuSer li{
+    list-style-type: none;
+    font-size: 2.5rem;
+}
+
+.menuSer li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.menuSer li a:hover{
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 10px;
+}
+
+.serviciosPr{
+    font-family:'Bebas Neue', cursive;
+    color: #fff;
+    font-size: 9rem;
+    padding-bottom: 20px;
+    letter-spacing: 8px;
+}
+
+
+.paginaServicios h4{
+    color: #7E6BC4;
+    font-size: 3rem;
+    font-weight: 800;
+
+}
+
+.paginaServicios p{
+    color: #7E6BC4;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.paginaServicios img{
+    border-radius: 20px;
+}
+
+
+.comentariosCentrado{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px;
+}
+
+.comentarios{
+    background-color: #eeeeee;
+    width: 100%;
+}
+.comentarios h4{
+    font-size: 4rem;
+}
+.comentarios table{
+    font-size: 1.5rem;
+    border-collapse: collapse;
+}
+.comentarios table th{
+    color: #eeeeee;
+    background-color: #222831 ;
+    padding: 10px;
+}
+
+.comentarios table .corazonRojo{
+    color: red;
+}
+
+.comentarios table td{
+    padding: 10px;
+}
+
+.comentarios table ol li{
+    list-style-type: none;
+}
+
+/*-----     PAGINA GALERIA  -----*/
+#headerGaleria{
+    background-image: url(../multimedia/header4.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedorGaleria{
+    background-color: #FEF0FF;
+    border-radius: 20px;
+    padding: 10px;
+    height: 1100px;
+    width: 1270px; 
+    position: relative;
+    top: -120px;
+    left: 30px; 
+    display: grid;
+    grid-template-columns: repeat(5,230px);
+    grid-template-rows:130px 300px 300px 200px ;
+    grid-template-areas: 
+    "titulo titulo titulo titulo titulo"
+    "img1 img2 img3 img4 img5"
+    "img1 img6 img7 img8 img9"
+    "img10 img11 img12 img13 img14" ;
+    justify-content: center;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+   
+}
+
+.contenedorGaleria img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.tituloGaleria{
+    grid-area: titulo;
+}
+.img1{
+  grid-area: img1; 
+}
+.img1:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img2{
+    grid-area: img2;  
+}
+.img2:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img3{
+  grid-area: img3;  
+}
+.img3:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img4{
+    grid-area: img4;  
+}
+.img4:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img5{
+    grid-area: img5;  
+}
+.img5:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img6{
+    grid-area: img6;  
+}
+.img6:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img7{
+    grid-area: img7;
+}
+.img7:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img8{
+    grid-area: img8;
+}
+.img8:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img9{
+    grid-area: img9;
+}
+.img9:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img10{
+    grid-area: img10;
+}
+.img10:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img11{
+    grid-area: img11;
+}
+.img11:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img12{
+    grid-area: img12;
+}
+.img12:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img13{
+    grid-area: img13;
+}
+.img13:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.img14{
+    grid-area: img14;
+}
+.img14:hover{
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+
+.contenedorGaleria .tituloGaleria{
+    text-align: center;
+    font-size: 8rem;
+    color: #C79ECF;
+    font-family:'Bebas Neue', cursive;
+}
+
+
+
+
+/* ---- PAGINA CONTACTO ---- */
+#headerContacto{
+    background-image: url(../multimedia/header5.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#contacto{
+    position: relative;
+    height: 800px;
+    background-color: #FEF0FF;
+    display: flex;
+    justify-content: center;
+    padding-right: 200px;
+}
+
+.tituloVerticalContacto{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+
+}
+
+.lineaContacto{
+    font-family:'Bebas Neue', cursive;
+    color: #D6C8FF;
+    font-size: 8rem;
+    text-align: center;
+}
+
+.formulario{
+    width:1000px;
+	padding:16px;
+	border-radius:10px;
+    margin:5px 20px ;
+    font-size: 1.5rem;
+
+}
+
+.formulario fieldset{
+    padding: 10px;
+}
+
+.formulario label{
+    margin: 10px;
+}
+
+.formulario input[type="text"], [type="email"]{
+    width:100%;
+    padding:3px 10px;
+    margin:10px 0 10px;
+	display:block;
+}
+.servicioForm{
+    margin:15px 0 20px;
+}
+.formulario select{
+    font-size: 1.5rem; 
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.formulario input[type="submit"], [type="reset"]{
+	width:90%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+    display:block;
+    background-color:#D6C8FF ;
+    font-size: 1.5rem;
+}
+
+.formulario input:focus {
+    background: rgba(0,0,0,.1);
+    border-radius: 5px;
+    outline: none;
+}
+
+.radio, .conocer{
+    display: block;
+    margin:15px 0 20px 0;
+}
+
+#contacto img{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 500px;
+    left: 1030px;
+    border: 5px solid #fff;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 992px){
+/* Media Main*/
+    #headerIndex{
+        height: 200px;
+    }
+    .logo img{
+        width: 300px;
+    }
+    
+    .menu li{
+        list-style-type: none;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+
+    .mainPadre img{
+        height: 300px;
+    }
+    .mainPadre p{
+    display: block;
+    }
+
+    .serviciosPadreIndex{
+        display: flex;
+        flex-direction: column;
+    }
+    .galeria img{
+        width: 300px;
+    }
+    .menu li{
+        font-size: 1.5rem;
+    }
+
+
+/* MEDIA SERVICIOS */
+    .paginaServicios img{
+        margin: 0;
+    }
+
+    .menuSer li{
+        font-size: 2rem;
+    }
+
+    .paginaServicios h4{
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    .paginaServicios p{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

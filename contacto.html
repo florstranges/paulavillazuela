@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactate con Paula Villazuela para fotografiar tu evento, reunión o cumpleaños.">
+    <meta name="keywords" content="Fotografía, Fotografa, Fotografía Digital, Books, Fotografía Argentina">
+
+    <title>Contacto - Paula Villazuela Fotografía</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <script src="https://kit.fontawesome.com/83349a9ae5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header id="headerContacto">
+        <div class="logo animate__fadeInDown">
+            <a href="index.html"><img src="multimedia/logo.png" alt="Logo-Paula-Villazuela"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-mi.html">Sobre Mi</a></li>
+                <li><a href="servicios3.html">Servicios</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contacto">
+        <div class="contenedorFormulario">
+            <div class="tituloVerticalContacto">
+                <h2 class="lineaContacto">Contacto</h2>
+            </div>
+            <form class="formulario">
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre">
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="nombre" id="apellido">
+
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" name="correo" id="correo">
+                    <div class="servicioForm">
+                        <label for="servicio" class="labelServicio">Servicio</label>
+                        <select name="servicio" id="servicio">
+                            <option value="" disabled selected>--- Seleccione ---</option>
+                            <option value="cumpleaños">Cumpleaños</option>
+                            <option value="casamiento">Casamiento</option>
+                            <option value="books">Books</option>
+                            <option value="productos">Producto</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="radio">
+                        <label for="CABA">CABA</label>
+                        <input type="radio" name="ciudad" value="CABA" id="CABA">
+                        <label for="GBA">GBA</label>
+                        <input type="radio" name="ciudad" value="GBA" id="GBA">
+                    </div>
+
+                    <div class="conocer">
+                        <p>¿Cómo me conociste?</p>
+                        <label for="instagram">Instagram</label>
+                        <input type="checkbox" name="conocer" value="Instagram" id="conocer">
+
+                        <label for="facebook">Facebook</label>
+                        <input type="checkbox" name="conocer" value="Facebook" id="facebook">
+
+                        <label for="otro">Otro</label>
+                        <input type="checkbox" name="conocer" value="Otro" id="otro">
+                    </div>
+                    <input type="reset" value="Limpiar formulario">
+                    <input type="submit" value="Enviar formulario">
+                </fieldset>
+            </form>
+        </div>
+        <img src="multimedia/pauFoto.jpg" alt="Pau Camara">
+    </div>
+
+    <footer>
+        <h3 class="contactoBebas">Contacto</h3>
+        <p class="letraGrisClaro">Correo: paulavillazuela@gmail.com</p>
+        <p>Telefono: 011 156 555 7854</p>
+        <span>
+            <a href="https://www.instagram.com/pvillazuela.shots/">
+            <i class="fab fa-instagram"></i></a>
+        </span>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

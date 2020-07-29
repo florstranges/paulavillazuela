@@ -1,0 +1,16 @@
+// Variables - Mixins - Extend
+
+$primerColor: #7E6BC4;
+$segundoColor: #C79ECF;
+$tercerColor: #D6C8FF;
+$cuartoColor: #FEF0FF;
+$colorBlancoUno: #F5F2FC;
+$colorBlancoDos: #ffffff;
+$colorNegro: #0c0c0c;
+
+%titulos {
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 4rem;}
+
+$texto: 'Lato', sans-serif;

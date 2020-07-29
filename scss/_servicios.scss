@@ -1,0 +1,81 @@
+#headerServicio{
+    background-image: url(../multimedia/header3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 100%;
+}
+.paginaServicios{
+    background-color: $tercerColor;
+    font-size: 2rem;
+    max-width: 100%;
+    h3{
+        color: $primerColor;
+        font-size: 3rem;
+        font-weight: 800;
+        letter-spacing: 1.5rem;
+    }
+    p{
+        color: $colorNegro;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    img{
+        border-radius: 20px;
+    }
+}
+
+.menuSer{
+    li{
+        list-style-type: none;
+        font-size: 2.5rem;
+        a{
+            color: $colorBlancoDos;
+            text-decoration: none;
+            font-size: 2rem;
+            &:hover{
+                background-color: rgba(255, 255, 255, .3);
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.serviciosPr{
+    @extend %titulos;
+    color: $colorBlancoDos;
+    font-size: 9rem;
+    padding-bottom: 20px;
+}
+
+.comentariosCentrado{
+    @extend %titulos;
+    letter-spacing: 1.5rem;
+    padding: 20px;
+    font-size: 4rem;
+}
+.comentarios{
+    background-color: $colorBlancoUno;
+    width: 100%;
+    table{
+        font-size: 1.5rem;
+        border-collapse: collapse;
+        .corazonRojo{
+            color: red;
+        }
+        th{
+            color: $colorBlancoUno;
+            background-color: #222831 ;
+            padding: 10px;
+        }
+        td{
+            padding: 10px;
+        }
+        ol{
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $texto;
+}
+
+footer{
+    background-image: url(../multimedia/footer3.jpg);
+    background-size:cover ;
+    background-position: center;
+    font-size: 1.5rem;
+    padding: 15px;
+    h3,p,a{
+        margin: 10px;
+    }
+    .contactoBebas{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2.5rem;
+    }
+    .fa-instagram{
+        color: $colorNegro;
+        font-size: 3rem;
+    }
+}
