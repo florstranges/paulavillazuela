@@ -488,8 +488,8 @@ header {
     .div__sobre__info #img2 {
       position: initial;
       max-width: 50%;
-      display: inline-flex;
-      margin: 10px; }
+      display: flex;
+      margin: auto; }
   .div__sobre__info__titulo {
     writing-mode: initial;
     transform: rotate(0); }
