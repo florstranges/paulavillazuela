@@ -26,10 +26,14 @@
                 left: 800px;
                 padding-top: 60px;
             }
-            img{
-                border: 5px solid $colorBlancoDos;
-                border-radius: 20px; 
-                width: 300px; 
+            .div__sobre__info__imagenes{
+            display: flex;
+            justify-content: center;
+                img{
+                    border: 5px solid $colorBlancoDos;
+                    border-radius: 20px; 
+                    width: 300px; 
+                }
             }
     }    
         

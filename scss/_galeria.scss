@@ -32,9 +32,11 @@
         object-fit: cover;
     }
     .tituloGaleria{
-        @extend %titulos;
-        font-size: 8rem;
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        letter-spacing: 2rem;
         color: $segundoColor;
+        font-size: 7rem;
     }  
 }
 

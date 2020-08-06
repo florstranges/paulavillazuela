@@ -1,4 +1,4 @@
-.mainPadre h3, .servicios h3, .galeria h3, .div__sobre__info__titulo .div__sobre__info__titulo__linea, .serviciosPr, .comentariosCentrado, .contenedorGaleria .tituloGaleria, .lineaContacto {
+.mainPadre h3, .servicios h3, .galeria h3, .div__sobre__info__titulo .div__sobre__info__titulo__linea, .serviciosPr, .comentariosCentrado, .lineaContacto {
   font-family: 'Bebas Neue', cursive;
   text-align: center;
   letter-spacing: 4rem; }
@@ -171,10 +171,13 @@ header {
     top: 70px;
     left: 800px;
     padding-top: 60px; }
-  .div__sobre__info img {
-    border: 5px solid #ffffff;
-    border-radius: 20px;
-    width: 300px; }
+  .div__sobre__info .div__sobre__info__imagenes {
+    display: flex;
+    justify-content: center; }
+    .div__sobre__info .div__sobre__info__imagenes img {
+      border: 5px solid #ffffff;
+      border-radius: 20px;
+      width: 300px; }
 
 .div__sobre__info__titulo {
   padding-bottom: 25px;
@@ -287,8 +290,11 @@ header {
     display: block;
     object-fit: cover; }
   .contenedorGaleria .tituloGaleria {
-    font-size: 8rem;
-    color: #C79ECF; }
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    letter-spacing: 2rem;
+    color: #C79ECF;
+    font-size: 7rem; }
 
 .tituloGaleria {
   grid-area: titulo; }
@@ -494,7 +500,8 @@ header {
     writing-mode: initial;
     transform: rotate(0); }
     .div__sobre__info__titulo .div__sobre__info__titulo__linea {
-      font-size: 6rem; }
+      font-size: 6rem;
+      letter-spacing: 2rem; }
   .paginaServicios img {
     margin: 0; }
   .paginaServicios h3 {
@@ -504,6 +511,9 @@ header {
   .paginaServicios p {
     margin-bottom: 10px;
     text-align: justify; }
+  .comentariosCentrado {
+    letter-spacing: 2rem;
+    font-size: 2rem; }
   .menuSer li {
     font-size: 2rem; }
     .menuSer li a {
@@ -547,12 +557,32 @@ header {
       border: 5px solid #ffffff;
       border-radius: 20px; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 425px) {
   .servicios h3 {
-    font-size: 2.5rem;
-    letter-spacing: 3rem; }
+    font-size: 3rem;
+    letter-spacing: 2rem; }
   .paginaServicios h2 {
-    font-size: 2.5rem;
-    letter-spacing: 3rem; }
+    font-size: 4rem;
+    letter-spacing: 1.5rem; }
   .paginaServicios h3 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  .contenedorFormulario {
+    flex-direction: column; }
+  .tituloVerticalContacto {
+    writing-mode: initial;
+    transform: initial; }
+  .lineaContacto {
+    font-size: 4rem;
+    letter-spacing: 1rem; }
+  .formulario {
+    width: 100%;
+    padding: auto;
+    margin: auto; } }
+
+@media screen and (max-width: 320px) {
+  .mainPadre h3 {
+    margin: auto; }
+  .galeria h3 {
+    letter-spacing: 1.5rem; }
+  .comentariosCentrado {
+    letter-spacing: 0; } }
