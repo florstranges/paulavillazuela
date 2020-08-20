@@ -5,126 +5,55 @@
     text-align: center;
 }
 .contenedorGaleria{
-    background-color: $cuartoColor;
+    background-color: $segundoColor;
     border-radius: 20px;
     padding: 10px;
-    height: 1100px;
     width: 1270px; 
     max-width: 100%;
-    margin: auto;
     position: relative;
     top: -120px;
-    display: grid;
-    grid-template-columns: repeat(5,230px);
-    grid-template-rows:130px 300px 300px 200px ;
-    grid-template-areas: 
-    "titulo titulo titulo titulo titulo"
-    "img1 img2 img3 img4 img5"
-    "img1 img6 img7 img8 img9"
-    "img10 img11 img12 img13 img14" ;
-    justify-content: center;
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
     img{
-        width: 100%;
-        height: 100%;
-        display: block;
-        object-fit: cover;
+        vertical-align: middle;
     }
     .tituloGaleria{
         font-family: 'Bebas Neue', cursive;
         text-align: center;
-        letter-spacing: 2rem;
-        color: $segundoColor;
+        letter-spacing: 1.5rem;
+        color: $cuartoColor;
         font-size: 7rem;
+        margin: auto;
     }  
 }
 
-
-.tituloGaleria{
-    grid-area: titulo;
+.img-galeria{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    padding: 5px;
+    transition: all 1s;
 }
-.img1{
-    grid-area: img1; 
-    &:hover{
-    transform: scale(1.5);
-    transition-duration:3s;
-}}
-.img2{
-    grid-area: img2;  
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img3{
-    grid-area: img3;  
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img4{
-    grid-area: img4;  
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img5{
-    grid-area: img5;  
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img6{
-    grid-area: img6;  
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img7{
-    grid-area: img7;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img8{
-    grid-area: img8;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img9{
-    grid-area: img9;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img10{
-    grid-area: img10;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img11{
-    grid-area: img11;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img12{
-    grid-area: img12;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img13{
-    grid-area: img13;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
-.img14{
-    grid-area: img14;
-    &:hover{
-    transform: scale(1.5);
-    transition-duration: 3s;
-}}
+.img-galeria:hover{
+    opacity: 30%;
+}
+.modal-img {
+    width: 100%;
+    object-fit: cover; }
+
+.button-galeria {
+    background-color: $segundoColor;
+    border: none; }
+.button-galeria:focus {
+    outline: none; }
+
+.modal-title{
+    font-size:2rem;
+    margin: auto;
+}
+.modal-content{
+    background-color: $segundoColor ;
+}
+.modal-header{
+    color: $colorBlancoDos;
+    text-transform: uppercase;
+    font-size: 2rem;
+}

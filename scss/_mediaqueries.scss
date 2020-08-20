@@ -80,7 +80,7 @@
         img{
             margin: 0;
         }
-        h3{
+        h2{
             padding-top: 20px;
             text-align: center;
             text-transform: uppercase;
@@ -92,7 +92,6 @@
     }
 
     .comentariosCentrado{
-        letter-spacing: 2rem;
         font-size: 2rem;
     }
     .menuSer{
@@ -112,74 +111,47 @@
         width: 100%;
         height: 100%;
         position: initial;
-        border-radius: 0;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: 100px;
-        grid-template-areas: 
-        "titulo titulo"
-        "img1 img2"
-        "img1 img3"
-        "img4 img5"
-        "img6 img6"
-        "img7 img8"
-        "img9 img8"
-        "img10 img10"
-        "img14 img12"
-        "img14 img13"
-        "img11 img11" ;
-        justify-content: center;
-        grid-column-gap: 2px;
-        grid-row-gap: 2px;
-    }
-    .img1:hover,
-    .img2:hover,
-    .img3:hover,
-    .img4:hover,
-    .img5:hover,
-    .img6:hover,
-    .img7:hover,
-    .img8:hover,
-    .img9:hover,
-    .img10:hover,
-    .img11:hover,
-    .img12:hover,
-    .img13:hover,
-    .img14:hover{
-        transform:none
-    }
+        border-radius: 0;}
+
 
     // CONTACTO
+    .tituloVerticalContacto{
+        writing-mode: initial;
+        transform: rotate(360deg);
+    }
+    .contenedorFormulario{
+        background-size: contain;
+    }
     #contacto{
         height: 100%;
         padding: 0;
-        img{
-            width: 300px;
-            height: 230px;
-            position: relative;
-            border: 5px solid $colorBlancoDos;
-            border-radius: 20px;
-        }
     }
 }
 
 @media screen and (max-width: 425px){
+    //SERVICIOS
     .servicios{
-        h3{
+        h2{
             font-size: 3rem;
-            letter-spacing: 2rem;
         }
     }
 
     .paginaServicios{
         h2{
-            font-size: 4rem;
-            letter-spacing: 1.5rem;
-        }
-        h3{
-            font-size: 2rem;
+            font-size: 3rem;
         }
     }
+
+    .rowUno{
+        padding: 0 0 40px;
+    }
+    .rowTres{
+        padding: 40px 0;
+    }
+    #eventos, #books{
+        margin-top: 15px;
+    }
+
 
     // CONTACTO
     .contenedorFormulario{
@@ -214,8 +186,8 @@
     }
 
     // SERVICIOS
-    .comentariosCentrado{
-        letter-spacing: 0;
+    .serviciosPr{
+        font-size: 4rem;
+        letter-spacing: 1rem;
     }
-
 }

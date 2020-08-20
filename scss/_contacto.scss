@@ -4,20 +4,11 @@
     background-position: center;
     text-align: center;
 }
-#contacto{
-    background-color: $cuartoColor;
-    display: inline;
-    img{
-        width: 300px;
-        height: 230px;
-        border: 5px solid $colorBlancoDos;
-        border-radius: 20px;
-        display: block;
-        margin: auto;}
-}
 .contenedorFormulario{
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: $tercerColor;
 }
 .tituloVerticalContacto{
     writing-mode: vertical-lr;
@@ -25,7 +16,7 @@
 }
 .lineaContacto{
     @extend %titulos;
-    color: $tercerColor;
+    color: $segundoColor;
     font-size: 8rem;
 }
 .formulario{
@@ -34,11 +25,13 @@
 	border-radius:10px;
     margin:5px 20px ;
     font-size: 1.5rem;
+    font-family: $texto;
     fieldset{
         padding: 10px;
     }
     label{
         margin: 10px;
+        font-size:2rem;
     }
     input[type="text"], [type="email"]{
         width:100%;
@@ -55,14 +48,14 @@
         font-size: 1.5rem; 
         font-family: $texto;
     }
-    input[type="submit"], [type="reset"]{
+    input[type="submit"]{
         width:90%;
         padding:8px 16px;
         margin-top:32px;
         border:1px solid $colorNegro;
         border-radius:5px;
         display:block;
-        background-color: $tercerColor ;
+        background-color: $segundoColor ;
         font-size: 1.5rem;
     }
 }
@@ -72,4 +65,10 @@
 .radio, .conocer{
     display: block;
     margin:15px 0 20px 0;
+}
+
+.conocer{
+    p{
+        font-size: 2rem;
+    }
 }

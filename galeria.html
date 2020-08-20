@@ -8,12 +8,13 @@
     <meta name="keywords" content="Fotografía, Fotografa, Fotografía Digital, Books, Fotografía Argentina">
 
     <title>Galeria - Paula Villazuela Fotografía</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="estilos/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
     <script src="https://kit.fontawesome.com/83349a9ae5.js" crossorigin="anonymous"></script>
@@ -28,72 +29,341 @@
             <ul class="menu">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="sobre-mi.html">Sobre Mi</a></li>
-                <li><a href="servicios3.html">Servicios</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="galeria.html">Galeria</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="contenedorGaleria">
-        <h2 class="tituloGaleria">Galeria</h2>
+    
+        <div class="container-fluid m-auto contenedorGaleria">
+            <div class="row">
+                <h1 class="tituloGaleria">Galeria</h1>
+            </div>
 
-        <div class="img1">
-            <img src="multimedia/Books/Delfina Faiella (1).jpg" alt="Delfi" id="delfi">
+            <div class="row m-auto">
+                <div class="col-xs-12 col-md-4 col-xl-5 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#Eventos-1" class="button-galeria">
+                        <img src="multimedia/Marchas/marcha.jpg" alt="Marcha 8A" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="Eventos-1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Marcha 8A </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Marchas/marcha.jpg" alt="Marcha"
+                                        class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-xl-4 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#futbol-1" class="button-galeria">
+                        <img src="multimedia/Futbol/futbol1.jpg" alt="Futbol" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="futbol-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Futbol UBA</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Futbol/futbol1.jpg" alt="Baño" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-xl-3 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#delfi" class="button-galeria">
+                        <img src="multimedia/Books/Delfina Faiella (1).jpg" alt="Delfi" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="delfi" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" style="display: none;" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Book Delfi</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Books/Delfina Faiella (1).jpg" alt="Delfi" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row m-auto">
+
+                <div class="col-xs-12 col-md-4 col-xl-4 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#galletitas" class="button-galeria">
+                        <img src="multimedia/Productos/Lupittas (7).jpg" alt="Galletitas Lupitas" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="galletitas" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Galletitas Lupitas </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Productos/Lupittas (7).jpg" alt="Galletitas Lupitas"
+                                        class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-xl-5 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#book-1" class="button-galeria">
+                        <img src="multimedia/Books/Guada Fernandez (2).jpg" alt="Guada"
+                            class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="book-1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Book Guada </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Books/Guada Fernandez (2).jpg" alt="Guada"
+                                        class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-xl-3 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#plato-1" class="button-galeria">
+                        <img src="multimedia/Productos/Plato 1.jpg" alt="Postre en Vaso" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="plato-1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Postre en Vaso </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Productos/Plato 1.jpg" alt="Plato-1"
+                                        class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row m-auto">
+
+                <div class="col-xs-12 col-md-4 col-xl-5 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#fabri" class="button-galeria">
+                        <img src="multimedia/Books/Fabri Biondi.jpg" alt="Book Fabri" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="fabri" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Book Fabri </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Books/Fabri Biondi.jpg" alt="Book Fabri" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-xl-3 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#futbol-2" class="button-galeria">
+                        <img src="multimedia/Futbol/futbol2.jpg" alt="Futbol Uba" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="futbol-2" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Futbol Uba </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Futbol/futbol2.jpg" alt="Futbol Uba" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 col-xl-4 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#fiesta" class="button-galeria">
+                        <img src="multimedia/Books/fiesta.jpg" alt="Fiesta" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="fiesta" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Fiesta Blanco y Negro </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Books/fiesta.jpg" alt="Fiesta" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row m-auto">
+
+                <div class="col-xs-12 col-md-4 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#proyecto-1" class="button-galeria">
+                        <img src="multimedia/Proyectos/proyecto3.PNG" alt="Proyecto" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="proyecto-1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Foto Proyecto </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Proyectos/proyecto3.PNG" alt="Proyecto" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#emi-1" class="button-galeria">
+                        <img src="multimedia/Books/emiliano.jpg" alt="Emiliano" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="emi-1" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Book Emiliano </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Books/emiliano.jpg" alt="Emiliano" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4 p-0">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-toggle="modal" data-target="#proyecto-2" class="button-galeria">
+                        <img src="multimedia/Proyectos/proyecto.jpg" alt="Foto Proyecto" class="img-fluid img-galeria">
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="proyecto-2" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"> Foto Proyecto </h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="multimedia/Proyectos/proyecto.jpg" alt="Foto Proyecto" class="img-fluid modal-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
-        <div class="img2">
-            <img src="multimedia/Futbol/futbol1.jpg" alt="Futbol">
-        </div>
-
-        <div class="img3">
-            <img src="multimedia/Marchas/marcha.jpg" alt="8A">
-        </div>
-
-        <div class="img4">
-            <img src="multimedia/Productos/Lupittas (7).jpg" alt="Lupitas">
-        </div>
-
-        <div class="img5">
-            <img src="multimedia/Books/Guada Fernandez (2).jpg" alt="Guada">
-        </div>
-
-        <div class="img6">
-            <img src="multimedia/Productos/Plato 2.jpg" alt="Plato 2">
-        </div>
-
-        <div class="img7">
-            <img src="multimedia/Books/Fabri Biondi.jpg" alt="Fabri">
-        </div>
-
-        <div class="img8">
-            <img src="multimedia/Futbol/Uba (58).jpg" alt="Futbol 2">
-        </div>
-
-        <div class="img9">
-            <img src="multimedia/Books/fiesta.jpg" alt="Fiesta">
-        </div>
-
-        <div class="img10">
-            <img src="multimedia/Futbol/futbol2.jpg" alt="futbol">
-        </div>
-
-        <div class="img11">
-            <img src="multimedia/Proyectos/proyecto2.jpg" alt="paula proyecto">
-        </div>
-
-        <div class="img12">
-            <img src="multimedia/Productos/Plato 1.jpg" alt="plato 1">
-        </div>
-
-        <div class="img13">
-            <img src="multimedia/Books/emiliano.jpg" alt="Emiliano">
-        </div>
-
-        <div class="img14">
-            <img src="multimedia/Books/Color-27.jpg" alt="Paula Selfie">
-        </div>
-    </div>
 
     <footer>
         <h3 class="contactoBebas">Contacto</h3>
@@ -101,7 +371,7 @@
         <p>Telefono: 011 156 555 7854</p>
         <span>
             <a href="https://www.instagram.com/pvillazuela.shots/">
-            <i class="fab fa-instagram"></i></a>
+                <i class="fab fa-instagram"></i></a>
         </span>
     </footer>
 
